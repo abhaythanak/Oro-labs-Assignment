@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Input from './components/Input/Input'
 import Table from './components/Table/Table'
 import './App.css'
+import Anagram from './Anagram/Anagram'
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false)
@@ -26,6 +27,7 @@ function App() {
   ])
   const [getEdit, setEdit] = useState(false)
   const [getIndex, setIndex] = useState(0)
+
 
   // const onChangeHandler = (e) =>{
   //   setGetData({...getData,[e.target.name]:e.target.value})
@@ -136,6 +138,7 @@ function App() {
        onDelete={onDelete}
        onEdit={onEdit}
        />}
+       {/* <Anagram/> */}
     </div>
   )
 }
