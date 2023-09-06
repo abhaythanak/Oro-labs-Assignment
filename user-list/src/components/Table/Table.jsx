@@ -1,6 +1,7 @@
 import './Table.css';
 
-export default function Table({getList, onDelete, onEdit}) {
+export default function Table(props) {
+    const {getList, onDelete, onEdit} = props
     return(
         <div className="table-wrapper">
             <div className="heading">

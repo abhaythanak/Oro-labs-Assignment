@@ -9,20 +9,17 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.4);
+    background: url('https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .model{
     border-radius: 5px;
     padding: 10rem;
-    background-color: white;
-    width: 40em;
-    box-shadow: 0 10px 10px #807272;
-    background: conic-gradient(
-    white 90deg,
-    rgb(255, 237, 246) 90deg 180deg,
-    white 180deg 270deg,
-    rgb(245, 217, 231) 270deg
-  )
-  top left / 60px 60px repeat
+    
+    width: 39.4em;
+    box-shadow: 1px 2px 20px 5px #ea5050;
+    
 }
 .group{
    display: flex;
@@ -43,4 +40,15 @@
 
 .group label{
     margin-bottom: 0.2rem;
+}
+.InputError{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -100px;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
 }

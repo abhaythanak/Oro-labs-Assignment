@@ -52,7 +52,7 @@
     background-color: whitesmoke;
     border-radius: 4px;
     font-weight: 700;
-    box-shadow: 0 10px 10px #ccc;
+    box-shadow: 0 5px 5px #b8b5b5;
 }
 .delete-btn:hover{
     background-color: red;
@@ -69,7 +69,7 @@
     background-color: whitesmoke;
     border-radius: 4px;
     font-weight: 700;
-    box-shadow: 0 10px 10px #ccc;
+    box-shadow: 0 5px 5px #949292;
 }
 .edit-btn:hover{
     background-color: orange;

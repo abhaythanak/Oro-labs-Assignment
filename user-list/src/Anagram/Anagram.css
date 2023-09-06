@@ -1,0 +1,110 @@
+.Anagram-container{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  background: url('https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.header{
+  margin-top: -90px;
+  margin-bottom: 40px;
+  color: white;
+}
+.Anagram-model{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 10rem;
+  
+  width: 39.4em;
+  box-shadow: 1px 2px 20px 5px #ea5050;
+  
+}
+.Anagram-group{
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 1rem; 
+ color: white;
+}
+.Anagram-group input,
+.Anagram-group textarea {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+.Anagram-model .Anagram-btn {
+  display: block;
+  margin: auto;
+}
+
+.Anagram-group label{
+  margin-bottom: 0.4rem;
+  font-size: 20px;
+}
+.Anagram-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnCheck{
+  margin-top: 20px;
+  padding: 8px 20px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px; 
+  font-weight: 700;
+  box-shadow: 0 5px 5px #949292;
+}
+.btnCheck:hover{
+  margin-top: 20px;
+  padding: 8px 20px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px; 
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  box-shadow: 0 5px 5px #949292;
+}
+.btnClear{
+  margin-top: 20px;
+  padding: 8px 20px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 0 5px 5px #949292;
+}
+.btnClear:hover{
+  margin-top: 20px;
+  padding: 8px 20px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: orange;
+  color: white;
+  box-shadow: 0 5px 5px #949292;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -100px;
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+}

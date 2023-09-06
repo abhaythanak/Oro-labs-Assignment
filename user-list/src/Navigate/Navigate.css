@@ -1,21 +1,25 @@
-.App{
+.Navigate-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100vw;
     height: 100vh;
     background: url('https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg');
     background-position: center;
     background-size: cover;
 }
-.btn{
-    margin-top: 1rem;
+.NavigateUserList{
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px 40px;
     border: none;
-    background-color: #1d4ed8;
-    color: #fff;
-    padding: 1rem 2rem;
-    font-size: larger;
     border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0px 5px 5px #ccc;
+}
+.NavigateAnagram{
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
 }
